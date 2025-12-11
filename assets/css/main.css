@@ -3246,8 +3246,24 @@ input, select, textarea {
 		}
 
 			#wrapper section.full-width {
-				grid-template-columns: 0 100vw;
+				grid-template-columns: 100vw;
+				grid-template-areas: "content" "footer";
+				position: relative;
 			}
+
+				#wrapper section.full-width > header {
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 45vw;
+					z-index: 10;
+					padding: 0 5rem;
+				}
+
+				#wrapper section.full-width > .content {
+					padding-left: 50vw;
+					padding-right: 5rem;
+				}
 
 			#wrapper section:first-child {
 				margin-top: 0;
