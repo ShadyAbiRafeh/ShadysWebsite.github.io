@@ -3245,6 +3245,10 @@ input, select, textarea {
 			grid-template-rows: 1fr;
 		}
 
+			#wrapper section.full-width {
+				grid-template-columns: 0 100vw;
+			}
+
 			#wrapper section:first-child {
 				margin-top: 0;
 			}
