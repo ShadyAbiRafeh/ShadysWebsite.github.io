@@ -29,3 +29,7 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+Testing:
+    - Install dev dependencies: python -m pip install -r requirements-dev.txt
+    - Run tests: pytest -q
